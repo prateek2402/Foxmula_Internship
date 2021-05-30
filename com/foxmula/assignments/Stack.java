@@ -4,13 +4,12 @@ import java.util.*;
 
 public class Stack
 {
-    private int max, top;
+    private int top;
     LinkedList<Integer> ll = new LinkedList<Integer>(); 
     
-    Stack(int max)
+    Stack()
     {
-        this.max = max;
-        top = -1;
+       top = -1;
     }
     
     void push(int a)
